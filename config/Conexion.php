@@ -3,7 +3,7 @@
      
         protected $dbh;
 
-        protected funtion Conexion(){
+        protected function Conexion(){
             try{
                 $conectar = $this->dbh = new PDO("mysql:host=20.216.41.245;dbname=g2_20","G2_20","KNptsf7k");
                 return $conectar;
